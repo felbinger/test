@@ -28,9 +28,6 @@ jobs:
           
       - run: |
           Get-Childitem –Path C:\ -Include *msm -Recurse -ErrorAction SilentlyContinue
-          Get-Childitem –Path D:\ -Include *msm -Recurse -ErrorAction SilentlyContinue
-          Get-Childitem –Path C:\ -Include *libEGL.dll* -Recurse -ErrorAction SilentlyContinue
           Get-Childitem –Path D:\ -Include *libEGL.dll* -Recurse -ErrorAction SilentlyContinue
-          Get-Childitem –Path C:\ -Include *libGLESV2.dll* -Recurse -ErrorAction SilentlyContinue
           Get-Childitem –Path D:\ -Include *libGLESV2.dll* -Recurse -ErrorAction SilentlyContinue
                     
