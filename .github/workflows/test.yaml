@@ -26,7 +26,7 @@ jobs:
         with:
           arch: x64
           
-      - run: Get-Childitem –Path D:\ -Include *qgenericbearer.dll* -Recurse -ErrorAction SilentlyContinue
+      - run: Get-Childitem –Path D:\ -Include *bearer* -Recurse -ErrorAction SilentlyContinue
 
-      - run: Get-Childitem –Path C:\ -Include *qgenericbearer.dll* -Recurse -ErrorAction SilentlyContinue
+#      - run: Get-Childitem –Path C:\ -Include *qgenericbearer.dll* -Recurse -ErrorAction SilentlyContinue
 
