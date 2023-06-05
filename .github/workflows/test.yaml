@@ -16,7 +16,7 @@ jobs:
 
       - uses: jurplel/install-qt-action@v3
         with:
-          version: 5.15.*
+          version: 6.5.*
           host: windows
           modules: 'qtnetworkauth'
 
